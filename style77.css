@@ -9,6 +9,7 @@
 
 body {
     margin:0px;
+    font-family: "Roboto",sans-serif;
 }
 
 header {
@@ -16,4 +17,40 @@ header {
     text-align: center;
     box-shadow: 0 0 3px 1px grey;
     padding: 0.3rem;
+    position: relative;
+}
+
+main, .ville {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+/*PARTIE RECHERCHE*/
+
+.rechercher {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 1px;
+    padding-bottom: 19px;
+}
+
+.rechercher h2 {
+    margin-top: 26px;
+    font-size: 26px;
+}
+
+.rechercher button {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 26px;
+    box-shadow: 2px 1px 13px -3px black;
+    background-image:linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9) ) ;
 }
