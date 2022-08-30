@@ -1,23 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@media screen and (max-width: 768px) {
 
-*,
-::before
-::after{
-    box-sizing: border-box;
-}
-
-body {
-    margin:0px;
-    font-family: "Roboto",sans-serif;
+body{
+    margin: 0;
+    font-family: "Roboto",sans-serif
 }
 
 header {
-    font-family: "Shrikhand", cursive;
     text-align: center;
     box-shadow: 0 0 3px 1px grey;
-    padding: 0.3rem;
+    padding:1.3rem;
     position: relative;
+}
+
+.logo {
+    width: 178px;
 }
 
 main, .ville {
@@ -27,30 +23,180 @@ main, .ville {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 13px;
+    gap: 13px;  
 }
-
-/*PARTIE RECHERCHE*/
 
 .rechercher {
     text-align: center;
     background-color: #fafafa;
     padding: 1px;
-    padding-bottom: 19px;
+    padding-bottom: 61px;
 }
 
 .rechercher h2 {
     margin-top: 26px;
-    font-size: 26px;
-}
+    font-size: 22px;
+    width: 61%;
+    position: relative;
+    left: 76px;
+    font-weight: bold;
+    }
+      
+.p1 {
+    font-size: 17px;
+    color: gray;
+    }
 
 .rechercher button {
-    color: white;
-    font-weight: 300;
-    font-size: 20px;
-    padding: 13px 26px;
-    border: none;
-    border-radius: 26px;
-    box-shadow: 2px 1px 13px -3px black;
-    background-image:linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9) ) ;
-}
+        color: white;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 18px 23px;
+        border: none;
+        border-radius: 26px;
+        box-shadow: 2px 1px 13px -3px black;
+        background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9) );
+        margin-top: 20px;
+    }
+    
+.menu h2 {
+        position: relative;
+        top: 42px;
+        left: 27px;
+        margin: 0;
+    }
+    
+ol {
+        padding: 42px;
+        position: relative;
+        right: 10px;
+        margin: 0;
+        bottom: -7px;
+    }
+
+.fa-solid.fa-mobile-screen-button, .fa-solid.fa-list-ul, .fa-solid.fa-store {
+        position: relative;
+        top: 20px;
+        left: 21px;
+    }
+
+.numeros {
+        position: relative;
+        top: 43px;
+        right: 20px;
+        color: white;
+        background-color: #9356Dc;
+        display: flex;
+        justify-content: center;
+        width: 26px;
+        height: 27px;
+        align-items: center;
+        border-radius: 13px;
+    }
+
+li {
+        background-color: #f6f6f6;
+        padding: 25px;
+        width: 243px;
+        border-radius: 40px;
+        padding-left: 60px;
+        margin-top: -23px;
+    }
+    
+.resto {
+        background-color: #f6f6f6;
+        height: 1307px;
+    }
+
+.resto h2 {
+        position: relative;
+        left: 22px;
+        top: 49px;
+
+    }
+
+.container {
+        position: relative;
+        top: 122px;
+        right: 1px;
+        }
+
+.cards {
+        background-color: white;
+        width: 342px;
+        position: relative;
+        left: 17px;
+        height: 271px;
+        border-radius: 15px;
+        margin-top: -69px;
+        }
+
+.gout, .enchante, .francaise, .sens {
+        width: 100%;
+        height: 12rem;
+        object-fit: cover;
+        margin: 1px;
+        margin-top: 0px;
+        border-radius: 14px 14px 0 0;
+        }
+
+        
+.nouvo {
+            position: absolute;
+            margin-top: -255px;
+            left: 267px;
+            background-color: #99e2d0;
+            color: green;
+            padding: 8px;
+        }
+
+.card-titre {
+            position: relative;
+            bottom: 79px;
+            left: 34px;
+        }
+
+.card-text {
+            position: relative;
+            bottom: 108px;
+            left: 34px;
+        }
+
+.fa-regular.fa-heart {
+            position: relative;
+            bottom: 115px;
+            left: 201px;
+            font-size: 38px;
+        }
+
+.footer {
+            width: 100%;
+            height: 12rem;
+            background-color: #353535;
+        }
+
+.logo2 {
+            color: white;
+            font-size: 20px;
+            position: relative;
+            top: 9px;
+            left: 11px;
+        }
+
+.text-footer {
+            color: white;
+        }
+
+.fa-solid.fa-utensils, .fa-solid.fa-handshake-angle {
+            position: relative;
+            top: 21px;
+            left: 13px;
+        }
+
+.text {
+         margin: 10px;
+            position: relative;
+            top: 21px;
+            left: 10px;
+        }
+ }
