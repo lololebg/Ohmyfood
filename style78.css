@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    font-family: "Roboto",sans-serif
+}
+
+header {
+    text-align: center;
+    padding:1.3rem;
+    position: relative;
+}
+
+.logo2 {
+    width: 178px;
+    margin-left: 33px;
+}
+.fa-regular.fa-heart {
+    position: relative;
+    bottom: 72px;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    right: 18px;
+}
+.fa-solid.fa-arrow-left {
+    position: relative;
+    right: 241px;
+    font-size: 21px;
+    bottom: 5px;
+    color: black;
+}
+
+.gout2{
+width: 376px;
+object-fit: cover;
+height: 296px;
+}
+
+.euros {
+    position: relative;
+    bottom: 56px;
+    left: 305px;
+    font-weight: bold;
+    display: flex;
+    font-size: 17px;
+}
+.menu {
+    background-color: #f6f6f6;
+    position: relative;
+    bottom: 94px;
+    border-radius: 27px 27px 0 0px;
+}
+
+.menu h2 {
+    padding: 27px;
+}
+
+.entre, .plats, .Dessert {
+    position: relative;
+    left: 20px;
+    font-weight: 300;
+    padding-bottom: 14px;
+}
+
+.container-plats {
+    position: relative;
+    top: 19px;
+}
+
+.container-dessert {
+    position: relative;
+    top: 43px;
+}
+
+.container-entre {
+    background-color: white;
+    padding: 17px;
+    width: 87%;
+    position: relative;
+    left: 9px;
+    border-radius: 17px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.menu h4 {
+    position: relative;
+    bottom: 22px;
+}
+
+.piment {
+    position: relative;
+    bottom: 38px;
+}
+
+.entre:after, .plats:after, .Dessert:after {
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color: #99e2d0;
+    position: absolute;
+    left: 0;
+    top: 24px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 57px;
+    position: relative;
+    bottom: 33px;
+}
+
+.commande {
+    color: white;
+    font-weight: 300;
+    font-size: 19px;
+    padding: 18px 23px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 1px 13px -3px black;
+    background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9) );
+    margin-top: 20px;
+    width: 208px;
+}
+
+.footer {
+    width: 100%;
+    height: 12rem;
+    background-color: #353535;
+    margin-top: -96px;
+}
+
+.logo3 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 9px;
+    left: 11px;
+}
+
+.text-footer {
+    color: white;
+}
+
+.fa-solid.fa-utensils, .fa-solid.fa-handshake-angle {
+    position: relative;
+    top: 21px;
+    left: 13px;
+}
+
+.text {
+ margin: 10px;
+    position: relative;
+    top: 21px;
+    left: 10px;
+}
