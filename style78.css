@@ -174,7 +174,7 @@ height: 296px;
         .euros {
             position: relative;
             bottom: 56px;
-            left: 305px;
+            left: 296px;
             font-weight: bold;
             display: flex;
             font-size: 17px;
@@ -197,7 +197,7 @@ height: 296px;
         .container-entre {
             background-color: white;
             padding: 17px;
-            width: 87%;
+            width: 86%;
             position: relative;
             left: 9px;
             border-radius: 17px;
