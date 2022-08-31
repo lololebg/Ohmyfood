@@ -61,6 +61,11 @@ height: 296px;
     padding-bottom: 14px;
 }
 
+.container {
+    position: relative;
+    bottom: 47px;
+}
+
 .container-plats {
     position: relative;
     top: 19px;
@@ -119,7 +124,7 @@ height: 296px;
     border-radius: 25px;
     box-shadow: 2px 1px 13px -3px black;
     background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9) );
-    margin-top: 20px;
+    margin-top: 73px;
     width: 208px;
 }
 
