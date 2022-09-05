@@ -1,0 +1,104 @@
+@-webkit-keyframes app {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes app {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.container-entre {
+  -webkit-animation: app 2s;
+          animation: app 2s;
+}
+
+.container-entre.delay-1 {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.container-entre.delay-2 {
+  -webkit-animation-duration: 1.25s;
+          animation-duration: 1.25s;
+}
+
+.container-entre.delay-3 {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+.container-entre.delay-4 {
+  -webkit-animation-duration: 1.75s;
+          animation-duration: 1.75s;
+}
+
+.container-entre.delay-5 {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.container-entre.delay-6 {
+  -webkit-animation-duration: 2.25s;
+          animation-duration: 2.25s;
+}
+
+.container-entre.delay-7 {
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+}
+
+.container-entre.delay-8 {
+  -webkit-animation-duration: 2.75s;
+          animation-duration: 2.75s;
+}
+
+.container-entre.delay-9 {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.container-entre.delay-10 {
+  -webkit-animation-duration: 3.25s;
+          animation-duration: 3.25s;
+}
+
+.fas {
+  color: transparent;
+  background-image: linear-gradient(#9356dc, #ff79da);
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+  transition-duration: 0.25s;
+  position: relative;
+  bottom: 114px;
+  left: 83.7%;
+  font-size: 29px;
+}
+.fas:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .fas {
+    color: transparent;
+    background-image: linear-gradient(#9356dc, #ff79da);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 1;
+    transition-duration: 0.25s;
+    position: relative;
+    bottom: 114.55px;
+    left: 48.73%;
+    font-size: 31.7px;
+  }
+  .fas:hover {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=animation.css.map */
