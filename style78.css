@@ -1,7 +1,20 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+
+body {
     margin: 0;
     font-family: "Roboto",sans-serif;
-    height: 1843px;
+    height: 1813px;
+}
+
+.logo2 {
+    font-family: 'Shrikhand', sans-serif;
+    width: 178px;
+    margin-left: 33px;
 }
 
 header {
@@ -10,18 +23,6 @@ header {
     position: relative;
 }
 
-.logo2 {
-    width: 178px;
-    margin-left: 33px;
-}
-.fa-regular.fa-heart {
-    position: relative;
-    bottom: 72px;
-    font-size: 25px;
-    display: flex;
-    justify-content: flex-end;
-    right: 18px;
-}
 .fa-solid.fa-arrow-left {
     position: relative;
     right: 241px;
@@ -31,28 +32,25 @@ header {
 }
 
 .gout2{
-width: 100%;
-object-fit: cover;
-height: 296px;
+    width: 100%;
+    object-fit: cover;
+    height: 296px;
 }
 
-.euros {
-    position: relative;
-    bottom: 56px;
-    left: 97%;
-    font-weight: bold;
-    display: flex;
-    font-size: 17px;
-}
+/*SECTION-MENU*/
+
 .menu {
     background-color: #f6f6f6;
     position: relative;
     bottom: 94px;
     border-radius: 27px 27px 0 0px;
+    height: 1464px;
 }
 
 .menu h2 {
     padding: 27px;
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 27px;
 }
 
 .entre, .plats, .Dessert {
@@ -64,7 +62,46 @@ height: 296px;
 
 .container {
     position: relative;
-    bottom: 47px;
+    bottom: 72px;
+    left: 6px;
+}
+
+.container-entre {
+    background-color: white;
+    padding: 17px;
+    width: 96%;
+    position: relative;
+    left: 9px;
+    border-radius: 17px;
+    height: 40px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.menu h4 {
+    position: relative;
+    bottom: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.text-entre  {
+    position: relative;
+    bottom: 38px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.euros {
+    position: relative;
+    bottom: 75px;
+    left: 98%;
+    font-weight: bold;
+    display: flex;
+    font-size: 17px;
 }
 
 .container-plats {
@@ -77,41 +114,12 @@ height: 296px;
     top: 43px;
 }
 
-.container-entre {
-    background-color: white;
-    padding: 17px;
-    width: 96%;
-    position: relative;
-    left: 9px;
-    border-radius: 17px;
-    height: 40px;
-    margin-top: 15px;
-}
-
-.menu h4 {
-    position: relative;
-    bottom: 22px;
-}
-
-.piment {
-    position: relative;
-    bottom: 38px;
-}
-
-.entre:after, .plats:after, .Dessert:after {
-    content: "";
-    width: 3rem;
-    height: 0.25rem;
-    background-color: #99e2d0;
-    position: absolute;
-    left: 0;
-    top: 24px;
-}
+  /*BUTTON*/
 
 .button {
     display: flex;
     justify-content: center;
-    padding: 57px;
+    padding: 14px;
     position: relative;
     bottom: 33px;
 }
@@ -129,21 +137,34 @@ height: 296px;
     width: 208px;
 }
 
+.commande:hover {
+    opacity: 0.8;
+}
+.container-entre:hover>.text-entre{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 70%;
+  }
+  
+/*FOOTER*/
+
 .footer {
     width: 100%;
     height: 12rem;
     background-color: #353535;
-    margin-top: -96px;
+    margin-top: -120px;
     position: relative;
-    bottom: 47px;
+    bottom: 0px;
 }
 
 .logo3 {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
     top: 9px;
     left: 11px;
+    font-family: 'Shrikhand', sans-serif;
 }
 
 .text-footer {
@@ -156,53 +177,89 @@ height: 296px;
     left: 13px;
 }
 
-.text {
- margin: 10px;
+.text, .mail {
+    margin: 10px;
     position: relative;
     top: 21px;
     left: 10px;
 }
+
+.mail {
+    color: inherit;
+    text-decoration: none;
+}
+
+    /*MOBILE*/
+
 @media screen and (max-width:768px) {
     
+.container {
+    position: relative;
+    bottom: 72px;
+    left: 0px;
+}
 
-        .entre, .plats, .Dessert {
-            position: relative;
-            left: 20px;
-            font-weight: 300;
-            padding-bottom: 14px;
-        }
-        .euros {
-            position: relative;
-            bottom: 56px;
-            left: 296px;
-            font-weight: bold;
-            display: flex;
-            font-size: 17px;
-        }
-        .container {
-            position: relative;
-            bottom: 47px;
-        }
-        
-        .container-plats {
-            position: relative;
-            top: 19px;
-        }
-        
-        .container-dessert {
-            position: relative;
-            top: 43px;
-        }
-        
-        .container-entre {
-            background-color: white;
-            padding: 17px;
-            width: 86%;
-            position: relative;
-            left: 9px;
-            border-radius: 17px;
-            height: 40px;
-            margin-top: 15px;
-        }
+.container-plats {
+    position: relative;
+    top: 19px;
+}
     
+.container-dessert {
+    position: relative;
+    top: 43px;
+}
+.entre::after, .plats::after, .Dessert::after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color: #99e2d0;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+} 
+.container-entre {
+    background-color: white;
+    padding: 17px;
+    width: 86%;
+    position: relative;
+    left: 9px;
+    border-radius: 17px;
+    height: 37px;
+    margin-top: 15px;
+    box-shadow: 0px 4px 9px 0px gainsboro;
+}
+
+.entre, .plats, .Dessert {
+    position: relative;
+    left: 20px;
+    font-weight: 300;
+    padding-bottom: 14px;
+}
+
+.euros {
+    position: relative;
+    bottom: 75px;
+    left: 296px;
+    font-weight: bold;
+    display: flex;
+    font-size: 17px;
+}
+       
+
+.fas.fa-heart.coeur--45  {
+    color: transparent;
+    background-image: linear-gradient(#9356dc, #ff79da);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition-duration: 0.25s;
+    position: relative;
+    bottom: 115px;
+    left: 86.69%;
+    font-size: 31px;
+  }
+
+.fas.fa-heart:hover {
+    opacity: 1;
+}
 }
