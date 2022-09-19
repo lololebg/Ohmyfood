@@ -1,5 +1,3 @@
-
-
 /*ANIMATION-LOADING*/
 
 @keyframes loader {
@@ -73,7 +71,7 @@ transition: 400ms ease-in-out;
   font-size: 20px;
   color: #fff;
   position: relative;
-  top: 41px;
+  top: 33px;
   left: 18px;
   transform: rotate(0);
   transition: 400ms ease-in-out;
@@ -85,11 +83,21 @@ background-color: #99e2d0;
 margin-left: -55px;
 
 }
-
+.container-entre:hover>.text-entre{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 72%;
+}
 .container-entre:hover>.euros {
 margin-left: -50px;
 }
-
+.container-entre:hover>.menu_slide>.container-entre{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100px;
+}
 .container-entre:hover>.menu_slide>.fa-circle-check {
 transform: rotate(360deg);
 }
@@ -172,6 +180,7 @@ transform: rotate(360deg);
   position: relative;
   bottom: 131px;
   left: 340px;
+  transition: 0.3s ease-in-out;
 }
 
 .fa-circle-check:active {
@@ -183,29 +192,37 @@ transition: 400ms ease-in-out;
 font-size: 20px;
 color: #fff;
 position: relative;
-top: 41px;
+top: 31px;
 left: 18px;
 transform: rotate(0);
-transition: 400ms ease-in-out;
+transition: 0.65s ease-in-out;
 
+}
+
+.container-entre:hover>.text-entre{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 70%;
 }
 
 .container-entre:active>.menu_slide {
 background-color: #99e2d0;
 margin-left: -55px;
-transition: 0.5s;
+transition: 0.75s;
 
 }
 
-.container-entre:active>.euros {
 
-transform: 1s;
-}
 
 .container-entre:active>.menu_slide>.fa-circle-check {
 transform: rotate(360deg);
 }
-
-
-
+}
+.text-container:hover{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 220px;
+  
 }
