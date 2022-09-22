@@ -98,7 +98,7 @@ header {
 .euros {
     position: relative;
     bottom: 75px;
-    left: 98%;
+    left: 97%;
     font-weight: bold;
     display: flex;
     font-size: 17px;
@@ -191,6 +191,30 @@ header {
 
     /*MOBILE*/
 
+    @media all and (min-width:768px) and (max-width:1200px) {
+        .container-entre {
+            background-color: white;
+            padding: 17px;
+           max-width:  92%;
+            position: relative;
+            left: 9px;
+            border-radius: 17px;
+            height: 37px;
+            margin-top: 15px;
+            box-shadow: 0px 4px 9px 0px gainsboro;
+        }
+
+        .euros {
+            position: relative;
+            bottom: 75px;
+            left: 47%;
+            font-weight: bold;
+            display: flex;
+            font-size: 17px;
+            margin-left: 48%;
+        }
+    }
+
 @media screen and (max-width:768px) {
     
 .container {
@@ -239,7 +263,7 @@ header {
 .euros {
     position: relative;
     bottom: 75px;
-    left: 296px;
+    left: 92%;
     font-weight: bold;
     display: flex;
     font-size: 17px;
