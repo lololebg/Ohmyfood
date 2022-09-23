@@ -295,6 +295,17 @@ li:hover {
 }
     
        /*MOBILE*/
+
+
+@media  all and (min-width:769px) and (max-width:1200px) {
+    .cards {
+        width: 96%;
+       }
+
+       .nouvo {
+        left: 87%;
+      }
+}
  
 @media screen and (max-width:768px) {
  
@@ -360,7 +371,7 @@ li:active {
 .fa-regular.fa-heart {
     position: relative;
     bottom: 130px;
-    left: -31px;
+    left: -8%;
     font-size: 30px;
 }
 
@@ -377,7 +388,7 @@ li:active {
 .nouvo {
     position: absolute;
     margin-top: -255px;
-    left: 267px;
+    left: 71%;
     background-color: #99e2d0;
     color: green;
     padding: 8px;

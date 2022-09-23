@@ -191,6 +191,27 @@ header {
 
     /*MOBILE*/
 
+    @media screen and (min-width:1200px) {
+        .container-entre {
+
+           max-width:  96%;
+            border-radius: 17px;
+            height: 37px;
+            margin-top: 15px;
+            box-shadow: 0px 4px 9px 0px gainsboro;
+        }
+
+        .euros {
+            position: relative;
+            bottom: 75px;
+            left: 50%;
+            font-weight: bold;
+            display: flex;
+            font-size: 17px;
+            margin-left: 48%;
+        }
+    }
+
     @media all and (min-width:768px) and (max-width:1200px) {
         .container-entre {
             background-color: white;
@@ -213,9 +234,16 @@ header {
             font-size: 17px;
             margin-left: 48%;
         }
+
+        .container {
+            position: relative;
+            bottom: 72px;
+            left: 0px;
+        }
+
     }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     
 .container {
     position: relative;
@@ -285,5 +313,15 @@ header {
 
 .fas.fa-heart:hover {
     opacity: 1;
+}
+
+
+.fa-regular.fa-heart {
+    position: relative;
+    bottom: 85px;
+    font-size: 29px;
+    display: flex;
+    justify-content: flex-end;
+    right: 20px;
 }
 }

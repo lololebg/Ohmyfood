@@ -171,14 +171,85 @@ transform: rotate(360deg);
   right: 20px;
 }
 
-@media  all and (min-width:768px) and (max-width:1700px) {
+@media  screen and (min-width:1200px) {
+  .menu_slide {
+    margin-left: 50%;
+  }
+  .container-entre:hover>.menu_slide {
+    background-color: #99e2d0;
+    position: relative;
+    left: 100.8%;
+    }
+
+  .container-entre:hover>.euros {
+  position: relative;
+  left: 98%;
+    }
+  
+  .fa-circle-check:active {
+  transform: rotate(360deg);
+  transition: 400ms ease-in-out;
+  }
+  
+  .fa-circle-check {
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  top: 31px;
+  left: 18px;
+  transform: rotate(0);
+  transition: 0.65s ease-in-out;
+  
+  }
+  
+  .container-entre:hover>.text-entre{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 70%;
+  }
+  
+ 
+  .container-entre:active>.menu_slide>.fa-circle-check {
+  transform: rotate(360deg);
+  }
+
+  .fas.fa-heart  {
+    color: transparent;
+    background-image: linear-gradient(#9356dc, #ff79da);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition-duration: 0.25s;
+    position: relative;
+    bottom: 114px;
+    left: 96.7%;
+    font-size: 31px;
+  }
+  
+  .fas.fa-heart:hover {
+    opacity: 1;
+    transition-duration: 0.3s;
+  }
+  
+  .fa-regular.fa-heart {
+    position: relative;
+    bottom: 84px;
+    font-size: 29px;
+    display: flex;
+    justify-content: flex-end;
+    right: 31px;
+  }
+}
+
+@media  all and (min-width:768px) and (max-width:1200px) {
   .menu_slide {
     margin-left: 337px
   }
   .container-entre:hover>.menu_slide {
     background-color: #99e2d0;
     position: relative;
-    left: 101%;
+    left: 102%;
     }
 
   .container-entre:hover>.euros {
@@ -219,17 +290,37 @@ transform: rotate(360deg);
   .container-entre:active>.menu_slide>.fa-circle-check {
   transform: rotate(360deg);
   }
+  .fas.fa-heart {
+    color: transparent;
+    background-image: linear-gradient(#9356dc, #ff79da);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition-duration: 0.25s;
+    position: relative;
+    bottom: 114.59px;
+    left: 91.5%;
+    font-size: 31px;
+}
+.fa-regular.fa-heart {
+  position: relative;
+  bottom: 85px;
+  font-size: 29px;
+  display: flex;
+  justify-content: flex-end;
+  right: 36px;
+}
 }
 
 
-@media  screen and (max-width:768px) {
+@media  screen and (max-width:767px) {
 
   /*ANIMATION-VALIDATION*/
 
 .menu_slide {
   position: relative;
   bottom: 131px;
-  left: 103%;
+  left: 105.5%;
   transition: 0.3s ease-in-out;
 }
 
